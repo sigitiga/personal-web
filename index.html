@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="globals.css">
+    <title>Portfolio - Sigit Pamungkas</title>
+  </head>
+  <body>
+    <main class="flex flex-col items-center max-w-3xl m-auto my-12 space-y-5">
+      <section class="flex items-center justify-center">
+        <img src="/avatar.svg" width="100px" height="100px" class="rounded-full">
+        <div>
+          <p class=" font-bold">Sigit Pamungkas</p>
+          <p class=" text-white/75">A tech enthusiasts who bring your ideas to live</p>
+        </div>
+      </section>
+  
+      <section>
+        <h1 class="text-center">I'm a <span id="element"></span> </h1>
+      </section>
+
+    
+
+      <section class="grid grid-cols-3 gap-4 p-6">
+        <div class="card col-span-2">
+          <div class="flex flex-col h-full justify-between">
+            <div class="flex items-center gap-2">
+              <div class="w-4 h-4 bg-emerald-300 rounded-full animate-pulse"></div>
+              <p class="text-zinc-400">Available for Collaboration</p>
+            </div>
+            <div class="grid gap-2">
+              <h3>Do you want make a great product?</h3>
+              <button class="btn-secondary">Email me</button>
+            </div>
+          </div>
+        </div>
+        <div class="card flex flex-col justify-between items-center">
+          <div></div>
+          <img src="public/github-logo.png" width="80" height="80">
+          <h3>GitHub</h3>
+        </div>
+        <div class="card flex flex-col justify-between items-center">
+          <div></div>
+          <img class="rounded-xl" src="public/twitter.png" width="80" height="180">
+          <h3>Twitter</h3>
+        </div>
+        <div class="card col-span-2 flex flex-col h-full items-center justify-between">
+          <div></div>
+          <div class="text-center">
+            "Try to learn from someone's success. Don't use connections and luck as an excuse. That's too clichéd."
+          </div>
+          <h3>- Won In Jae -</h3>
+        </div>
+      </section>
+
+      <button id="gift" class="btn-primary">🎉 Reveal the gift</button>
+
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>  
+</html>
